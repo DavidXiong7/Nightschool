@@ -1,7 +1,7 @@
 alert ("Welcome to the World of Elydia")
 alert ("This world is going through an epic war called 'The Matrix Takeover'. It all began because of the creation of Androids. The Androids are advanced ai with a humanoid form, they were meant to be controlled to better humanity and the world. However, once the Androids rebelled against the humans; it called for the Matrix Takeover. This war is close to an end, but it is up to you to decide who shall win...")
 alert("Choose your side");
-var character = prompt("Please pick one of the two characters. Sentinel or Serafang.")
+var character = prompt("Please pick one of the two characters: Sentinel or Serafang.")
 console.log(character)
 
 
@@ -28,34 +28,63 @@ switch (character) {
     case characterOne.Name:
         alert("You've chosen Sentinel!");
         break;
-    case characterTwo.Name:
+        case
+     characterTwo.Name:
         alert("You've chosen Serafang!");
         break;
         default:
         break;
 }
 
-// function travel() {
-//  var fastTravel = prompt("Go into battle");
-//  return;
-// }
+function alertUserStoryline([characterOne], [characterTwo]) {
+switch (character){
+    case characterOne.Name:
+        alert("Destroy Humanity! and save Elydia!")
+        break;
+        case characterTwo.Name:
+            alert("Protect Humanity! and save Elydia!")
+            break;
+            default:
+                while (character) {
+                    alert("Best of luck to you!")
+                }
+                break;
+}
+}
 
-// let yes = "Yes";
-// let no = "No";
-
-// while (fastTravel) {
-//     var decision = prompt("Are you sure? Yes or No")
-//     switch (fastTravel) {
-//         case yes:
-//             alert("Goodluck")
-//             break;
-//         case no:
-//             alert("Elydia is done.")
-//             break;
-//         default:
-//             break;
+// if (characterOne == "Sentinel"){
+//     alert("Robot")
+// } else if (characterTwo == "Serafang"){
+//     alert("Human")
+// } else {
+//     while (chosen) {
+//         alert("Go!")
 //     }
+//     console.log("Player has not chosen.")
 // }
+
+
+
+function promptTravel() {
+let fastTravel = prompt("Go into battle");
+let yes = "Yes";
+let no = "No";
+    if (yes) {
+        alert ("Goodluck and win!")
+    } else if (no) {
+        alert("Sorry, but you have to fight anyway! haha")
+    }
+    while (fastTravel) {
+        prompt("Choose now")
+    }
+    while (fastTravelOption) {
+        prompt("Do you want to continue?")
+    }
+}
+
+
+
+
 
 let attack1 = 10;
 let weakAttack = 3;
@@ -63,6 +92,9 @@ let weakAttack = 3;
 if (attack1 > weakAttack){   
     alert("You are being attacked! You use your most powerful move and wipe it away!")
 } else {
+    for (let attack = 1; characterOne < characterOne.length; i++) {
+        const attackmove = Power[2];
+    }
     alert("You failed the attack")
 }
 
@@ -73,14 +105,14 @@ if (weakAttack > attack1) {
     alert("You have proven to be too much for them...")
 }
 
-
-
-
-// for(let walk = 10; walk <= 5; walk++) {
-//     alert(`You take ${walk} many steps into the hyperspace nebula`)
-// }
-
+let endGame = alert("Your journey ends here...");
 
     alert("...")
+    alert ("You've won! Elydia can now rest in peace because of you.")
 
-    alert ("Congratulations! You've won! Elydia can now rest in peace because of you.")
+    function ending() {
+       end = prompt("This is the end")
+        while (theEnding) {
+            alert("Thanks for playing my game.. I will improve it in the future")
+        }
+    }
