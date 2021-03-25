@@ -1,7 +1,7 @@
 alert ("Welcome to the World of Elydia")
 alert ("This world is going through an epic war called 'The Matrix Takeover'. It all began because of the creation of Androids. The Androids are advanced ai with a humanoid form, they were meant to be controlled to better humanity and the world. However, once the Androids rebelled against the humans; it called for the Matrix Takeover. This war is close to an end, but it is up to you to decide who shall win...")
 alert("Choose your side");
-let user = prompt("Please pick one of the two characters. Sentinel or Serafang.")
+prompt("Please pick one of the two characters. Sentinel or Serafang.")
 
 
 
@@ -34,7 +34,23 @@ switch (characterOne != characterTwo) {
             alert("Save the world.. and your own kind.")
 }
 
+function attackMoves() {
+    alert(`${characterOne.Power.length[2]} is your power move!`)
+}
 
+function attackMoves2() {
+    alert(`${characterTwo.Power.length[3]} is your power move!`)
+}
+
+while (attackMoves) {
+    switch (attackMoves) {
+        case characterOne:
+            alert("Powerful attack!")
+            break;
+        default:
+            break;
+    }
+}
 
 let attack1 = 10;
 let weakAttack = 3;
@@ -59,4 +75,7 @@ for(let walk = 10; walk <= 5; walk++) {
 
     prompt ("Congratulations! You've won! Elydia can now rest in peace because of you.")
 
+while (Ending) {
+    prompt("Did you enjoy?")
+}
     
