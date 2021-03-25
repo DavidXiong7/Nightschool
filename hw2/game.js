@@ -34,23 +34,23 @@ switch (characterOne != characterTwo) {
             alert("Save the world.. and your own kind.")
 }
 
-function attackMoves() {
-    alert(`${characterOne.Power.length[2]} is your power move!`)
-}
+// function attackMoves() {
+//     alert(`${characterOne.Power.length[2]} is your power move!`)
+// }
 
-function attackMoves2() {
-    alert(`${characterTwo.Power.length[3]} is your power move!`)
-}
+// function attackMoves2() {
+//     alert(`${characterTwo.Power.length[3]} is your power move!`)
+// }
 
-while (attackMoves) {
-    switch (attackMoves) {
-        case characterOne:
-            alert("Powerful attack!")
-            break;
-        default:
-            break;
-    }
-}
+// while (attackMoves) {
+//     switch (attackMoves) {
+//         case characterOne:
+//             alert("Powerful attack!")
+//             break;
+//         default:
+//             break;
+//     }
+// }
 
 let attack1 = 10;
 let weakAttack = 3;
@@ -68,14 +68,10 @@ if (weakAttack > attack1) {
     alert("Your godly powers are too much for them...")
 }
 
-for(let walk = 10; walk <= 5; walk++) {
-    alert(`You take ${walk} many steps into the hyperspace nebula`)
-}
-    prompt("You've fought so hard for this moment...")
+// for(let walk = 10; walk <= 5; walk++) {
+//     alert(`You take ${walk} many steps into the hyperspace nebula`)
+// }
+    alert("You've fought so hard for this moment...")
 
-    prompt ("Congratulations! You've won! Elydia can now rest in peace because of you.")
+    alert ("Congratulations! You've won! Elydia can now rest in peace because of you.")
 
-while (Ending) {
-    prompt("Did you enjoy?")
-}
-    
