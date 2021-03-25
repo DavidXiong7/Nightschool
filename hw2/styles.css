@@ -1,0 +1,19 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: rgb(255, 0, 221);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: bold;
+}
+
+body {
+  background: url(./img/background.jpg);
+  background-size: cover;
+  height: 100vh;
+}
